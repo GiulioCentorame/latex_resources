@@ -34,7 +34,7 @@
 
 \fancyhf{}
 \cfoot{\thepage}
-\rfoot{Anna Marie Vagnozzi}
+\rfoot{Giulio Centorame}
 
 %----------------------------------------------------------------------------------------
 %	HEADINGS COMMANDS: Commands for printing name and address
