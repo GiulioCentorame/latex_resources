@@ -9,6 +9,7 @@
 \usepackage{amsfonts}
 \usepackage{multicol}
 \usepackage{hyperref}
+\usepackage{bibentry}
 \setlength{\columnsep}{1cm}
 
 \newcommand\textbox[1]{%
@@ -206,6 +207,15 @@ Department for Biostatistics and Health Informatics, King's College London}{Lond
 \end{multicols}
 \end{rSection}
 
+%----------------------------------------------------------------------------------------
+% TODO: find a way of adding DOI
+\begin{rSection}{Publications}
+  \bibliographystyle{plain}
+\nobibliography{ref}
+  \begin{itemize}
+    \item \bibentry{scaini_role_2020}
+  \end{itemize}
+\end{rSection}
 %----------------------------------------------------------------------------------------
 
 \end{document}
